@@ -50,57 +50,6 @@ $ bin/divider_tests
 $ bin/divider 234 5431
 ```
 
-####  Building Using the Script
-
-There is a handy BASH script (used by the Travis CI) that you can run locally. It builds the project, and runs all the tests
-
-```bash
-./run.sh
-```
-
-#### Building in CLion
-
-> **NOTE**: Since JetBrains software [does not officially support git submodules](https://youtrack.jetbrains.com/issue/IDEA-64024), you must run `git submodule init && git submodule update` before starting CLion on a freshly checked-out repo.
-
-> **NOTE**: We recommend that you copy file `.idea/workspace.xml.example` into `.idea/workspace.xml` **before starting CLion**. It will provide a good starting point for your project's workspace.
-
-Assuming you've done the above two steps, you can start CLion, and open the project's top level folder. CLion should automatically detect the top level `CMakeLists.txt` file and provide you with the full set of build targets.
-
-Select menu option **Build ➜ Build Project**, and then **Build ➜ Install**.
-
-![CLION](doc/cmake-clion.png)
-
-The above screenshot is an example of CLion with this project open.
-
-## Feature Description
-
-To make it easy to branch off from this template, the example is minimal, but it works, compiles and is tested.
-
-We build a static library that, given a simple fraction will return the integer result of the division, and the remainder.
-
-```bash
-$ bin/divider numerator denominator
-
-# eg:
-$ divider 234 5435
-
-Division : 234 / 5435 = 0
-Remainder: 234 % 5435 = 234
-```
-
-And C++ usage:
-
-```C++
-#include <iostream>
-#include <division>
-
-Fraction       f = Fraction{25, 7};
-DivisionResult r = Division(f).divide();
-
-std::cout << "Result of the division is " << r.division;
-std::cout << "Remainder of the division is " << r.remainder;
-```
-
 ## File Locations
 
  * `src/*` — C++ code that ultimately compiles into a library
@@ -114,14 +63,6 @@ Tests:
  * For every C++ file in `src/A/B/<name>.cpp` there is a corresponding test file `test/A/B/<name>_test.cpp`
  * Tests compile into a single binary `test/bin/runner` that is run on a command line to run the tests.
  * `test/lib` folder with a git submodule in `test/lib/googletest`, and possibly other libraries.
-
-#### Contributing
-
-**Pull Requests are WELCOME!** Please submit any fixes or improvements, and I promise to review it as soon as I can at the project URL:
-
- * [Project Github Home](https://github.com/kigster/cmake-project-template)
- * [Submit Issues](https://github.com/kigster/cmake-project-template/issues)
- * [Pull Requests](https://github.com/kigster/cmake-project-template/pulls)
 
 ### License
 
