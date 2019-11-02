@@ -1,5 +1,5 @@
-libdir=/Users/christina/Teaching/matd04-p/codigo/integerlisttest/lib
-includedir=/Users/christina/Teaching/matd04-p/codigo/integerlisttest/include
+libdir=/Users/christina/Teaching/matd04-20192/integerlisttest/lib
+includedir=/Users/christina/Teaching/matd04-20192/integerlisttest/include
 
 Name: gmock
 Description: GoogleMock (without main() function)
