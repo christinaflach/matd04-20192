@@ -34,30 +34,76 @@ No exemplo acima, há 7 subárvores de um nó apenas,
 uma subárvore de 3 nós, 
 uma subárvore de 5 nós, e uma subárvore de 6 nós.
 
+Uma _árvore ordenada_ é aquela em que a ordem dos filhos em cada nó é definida.
+
+Os nós de uma árvore dividem-se em _níveis_: o nível de um nó é o número de nós
+no caminho que leva desse nó ao nó raiz (sem incluir o próprio nó). No exemplo 1,
+"R" é um nó de nível 1 e "T" é um nó nível 2.
+
+A _altura_ de uma árvore é igual ao nível máximo entre todos os seus nós 
+(ou a distância máxima até a raiz a partir de qualquer nó).
+O comprimento do caminho (_path length_) de uma árvore é a soma de todos os níveis
+de todos os nós da árvore.
+No exemplo 1, a árvore possui altura igual a 3 e comprimento do caminho igual a 21.
 
 
-## Árvores Binárias 
-
-Uma _árvore binária_ é definida com um conjunto finito de nós que, ou está vazio, ou consiste de um nó _raiz_ mais os elementos de duas árvores binárias distintas, chamadas de subárvores esquerda e direita do nó raiz. Em uma árvore binária, cada nó tem no máximo duas subárvores.
-Há dois tipos de nós: _nós externos_, sem filhos, e _nós internos_, com no máximo  dois filhos.
+Uma _árvore binária_ é definida com um conjunto finito de nós que, ou está vazio, 
+ou consiste de um nó _raiz_ mais os elementos de duas árvores binárias distintas, 
+chamadas de _subárvore esquerda_ e _subáarvore direita_ do nó raiz. 
+Em uma árvore binária, cada nó tem no máximo duas subárvores.
+Há dois tipos de nós: 
+_nós externos_, sem filhos, e _nós internos_, com no máximo  dois filhos.
 
 ![Exemplo 2.](../figs/arvore-s2.png)
 
 
 ## Algumas Propriedades
 
-+ _Há exatamente um caminho que conecta quaisquer dois vértices de uma árvore_.
++ (1) _Há exatamente um caminho que conecta quaisquer dois vértices de uma árvore_.
 
-+ Uma árvore com N nós possui N-1 arestas.
++ (2) Uma árvore com N nós possui N-1 arestas.
+
++ (3) Uma árvore binária com N nós internos possui N+1 nós externos.
+
++ (4) A altura de uma árvore binária completa (_full_) com N nós internos é ~logN na base 2.
 
 Ou a operação de busca ou a operação de inserção pode ser eficiente na representação com listas, mas não ambas. Estruturas em árvore permitem o acesso e a atualização eficientes em grandes volumes de dados.
 
 
 ## Árvores Binárias de Pesquisa
 
+```
+struct node {
+   int info;
+   struct node *l;
+   struct node *r;
+};
+```
+
+![binary tree](../figs/expressiontree.png)
 
 
 ## Percurso em Árvores Binárias
+
+Como visitar sistematicamente cada nó de uma árvore?
+
+Há diferentes métodos que consideram diferentes ordens para visitar os nós.
+
+### pré-ordem (_preorder_)
+
+Root, Left, Right.
+
+### em ordem (_inorder_)
+
+Left, Root, Right.
+
+### pós-ordem (_posorder_)
+
+Left, Right, Root.
+
+### _level order_ 
+
+
 
 
 
