@@ -174,17 +174,23 @@ Há diferentes métodos que consideram diferentes ordens para visitar os nós.
 
 Root, Left, Right.
 
+PMSAALERTEE
+
 ![Preorder](../figs/preorder.png)
 
 ### Em ordem (_inorder_)
 
 Left, Root, Right.
 
+ASAMPLETREE
+
 ![Inorder](../figs/inorder.png)
 
 ### Pós-ordem (_posorder_)
 
 Left, Right, Root.
+
+AASMTEERELP
 
 ![Posorder](../figs/posorder.png)
 
