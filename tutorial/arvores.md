@@ -170,17 +170,23 @@ Como visitar sistematicamente cada nó de uma árvore?
 
 Há diferentes métodos que consideram diferentes ordens para visitar os nós.
 
-### pré-ordem (_preorder_)
+### Pré-ordem (_preorder_)
 
 Root, Left, Right.
 
-### em ordem (_inorder_)
+![Preorder](../figs/preorder.png)
+
+### Em ordem (_inorder_)
 
 Left, Root, Right.
 
-### pós-ordem (_posorder_)
+![Inorder](../figs/inorder.png)
+
+### Pós-ordem (_posorder_)
 
 Left, Right, Root.
+
+![Posorder](../figs/posorder.png)
 
 ### _level order_ 
 
