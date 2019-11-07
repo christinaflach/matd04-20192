@@ -73,17 +73,20 @@ Ordenação externa.
 
 # Plano de aulas
 
-- 06/11 e 8/11: Árvores Binárias. [Aula Prática](exercicios/lista04.md)
+- 13/11: Prova 1
 
-- 30/10 e 01/11: Congresso UFBA / Aula Prática.
+- 06/11 e 8/11: [Árvores binárias](tutorial/arvores.md). Aula Prática: [Lista 04](exercicios/lista04.md)
+
+- 30/10 e 01/11: Congresso UFBA / Aula Prática (pilhas e filas).
 
 - 23 e 25/10: Listas, Pilhas e Filas. 
-   + [Lista 02](exercicios/lista02.md) e [Lista 03](exercicios/lista03.md)
+   + [Lista 02](exercicios/lista02.md)  **Entrega até 13/11**.
+   + [Lista 03](exercicios/lista03.md)  **Entrega até 13/11**
 
 - 04/10 a 19/10: Licença médica da professora. Trabalhar em [Exercícios](exercicios/listas01.md)
 
 - 25/9 e 27/9: Aula prática
-   + [Exercícios](exercicios/lista01.md). **Entrega até 18/10**.
+   + [Lista 01](exercicios/lista01.md). **Entrega até 18/10**.
 
 - 18/9 e 20/9: Listas
    + Leitura de [estruturas de dados fundamentais](tutorial/estruturasfundamentais.md) e links indicados.
