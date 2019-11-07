@@ -73,7 +73,7 @@ Ordenação externa.
 
 # Plano de aulas
 
-- 06/11 e 8/11: Árvores Binárias
+- 06/11 e 8/11: Árvores Binárias. [Aula Prática](exercicios/lista04.md)
 
 - 30/10 e 01/11: Congresso UFBA / Aula Prática.
 
