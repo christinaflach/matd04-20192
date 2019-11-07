@@ -109,8 +109,9 @@ Ordenação externa.
 # Exercícios
 
 + [Lista 01](exercicios/lista01.md). **Entrega até 18/10**.
-+ [Lista 02](exercicios/lista02.md) 
-+ [Lista 03](exercicios/lista03.md)
++ [Lista 02](exercicios/lista02.md) **Entrega até 13/11**.
++ [Lista 03](exercicios/lista03.md) **Entrega até 13/11**.
++ [Lista 04](exercicios/lista04.md) **Entrega até 20/11**.
 
 # Trabalho 
 
