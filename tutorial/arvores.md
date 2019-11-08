@@ -30,6 +30,7 @@ Diz-se que um nó y _está abaixo de_ um nó x (e x _está acima de_ y)
 se x estiver em algum caminho que leva de y até a raiz. 
 Por exemplo, na figura a seguir,  o nó "T" está abaixo de "R".
 
+**Exemplo 1.**
 ![Exemplo 1.](../figs/arvore-s1.png)
 
 Todos os nós da árvore, exceto o nó raiz, possuem um _pai_ (_parent_).
@@ -66,6 +67,7 @@ Em uma árvore binária, cada nó tem no máximo duas subárvores.
 Há dois tipos de nós: 
 _nós externos_, sem filhos, e _nós internos_, com no máximo  dois filhos.
 
+**Exemplo 2.**
 ![Exemplo 2.](../figs/arvore-s2.png)
 
 
@@ -82,86 +84,8 @@ _nós externos_, sem filhos, e _nós internos_, com no máximo  dois filhos.
 Ou a operação de busca ou a operação de inserção pode ser eficiente na representação com listas, mas não ambas. Estruturas em árvore permitem o acesso e a atualização eficientes em grandes volumes de dados.
 
 
-## Árvores Binárias de Pesquisa
-
-```
-struct node {
-   int info;
-   struct node *l;
-   struct node *r;
-};
-```
-
+**Exemplo. Expression Tree. **
 ![binary tree](../figs/expressiontree.png)
-
-
-## Exemplo de árvore binária (ver Geeks)
-
-```
-struct node 
-{ 
-	int data; 
-	struct node *left; 
-	struct node *right; 
-}; 
-
-/* newNode() allocates a new node with the given data and NULL left and 
-right pointers. */
-struct node* newNode(int data) 
-{ 
-// Allocate memory for new node 
-struct node* node = (struct node*)malloc(sizeof(struct node)); 
-
-// Assign data to this node 
-node->data = data; 
-
-// Initialize left and right children as NULL 
-node->left = NULL; 
-node->right = NULL; 
-return(node); 
-} 
-
-
-int main() 
-{ 
-/*create root*/
-struct node *root = newNode(1); 
-/* following is the tree after above statement 
-
-		1 
-	/ \ 
-	NULL NULL 
-*/
-	
-
-root->left	 = newNode(2); 
-root->right	 = newNode(3); 
-/* 2 and 3 become left and right children of 1 
-		1 
-		/ \ 
-		2	 3 
-	/ \ / \ 
-	NULL NULL NULL NULL 
-*/
-
-
-root->left->left = newNode(4); 
-/* 4 becomes left child of 2 
-		1 
-	/	 \ 
-	2		 3 
-	/ \	 / \ 
-4 NULL NULL NULL 
-/ \ 
-NULL NULL 
-*/
-
-getchar(); 
-return 0; 
-}
-
-``` 
-
 
 
 ## Percurso em Árvores Binárias
@@ -196,8 +120,39 @@ AASMTEERELP
 
 ### _level order_ 
 
+## Árvores Binárias de Pesquisa (BTS)
+
+Ver material do [Prof. João Brunet/UFCG](https://joaoarthurbm.github.io/eda/posts/bst/)
+
+## Exemplo de árvore binária de pesquisa
+
+```
+	      63 
+	  /	  \ 
+	 7	   69 
+       /   \	 /   \ 
+      2   NULL  NULL   90 
+    /   \             /  \
+  NULL  NULL        NULL  NULL
+
+``` 
+
+Uma árvore binária _completa_ é aquela que todos os nós, exceto os nós folhas, possuem grau 2 e as folhas possuem a mesma altura (ou seja, estão no mesmo _nível_). O número máximo de nós em uma árvore binária de altura h é 2 _elevado a_(h+1) − 1.
+Uma árvore completa possui a menor altura possível para a sua quantidade de nós: h = log(n+1)−1, ou seja, O(logn). Isso faz com que os principais algoritmos sejam _O(log n)_, pois são dependentes da altura da á.
+Uma árvore completa possui a menor altura possível para a sua quantidade de nós: h = log(n+1)−1, ou seja, O(logn). Isso faz com que os principais algoritmos sejamO(log n), pois são dependentes da altura da árvore.
 
 
+## Exemplo de árvore binária de pesquisa completa
 
+```
+	         63 
+	   /	         \ 
+	 7	          69 
+     /      \	       /       \ 
+    2        59        65        90 
+  /   \    /    \    /   \     /   \
+NULL NULL NULL NULL NULL NULL NULL NULL
+
+``` 
 
 
