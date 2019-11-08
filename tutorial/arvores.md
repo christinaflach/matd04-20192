@@ -155,4 +155,11 @@ NULL NULL NULL NULL NULL NULL NULL NULL
 
 ``` 
 
+### Operações
+
++ inserção
++ busca
++ remoção
+
+
 
