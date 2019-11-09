@@ -15,7 +15,7 @@ typedef struct TreeNode {
 
 - void add (IntegerBTS *, int); // adiciona valor inteiro 
 - remove (IntegerBTS *, int); // remove nó que contém valor 
-- IntegerTree * search (IntegerBTS*, int);
+- IntegerBTS * search (IntegerBTS*, int);
 - void preorder (IntegerBTS *);
 - void inorder (IntegerBTS *);
 - void posorder (IntegerBTS *);
