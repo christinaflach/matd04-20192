@@ -1,27 +1,30 @@
 # Exercícios sobre árvores binárias de pesquisa (_BTS - Binary Search Trees_ )
 
+1. Implementar versão recursiva para árvores binárias de pesquisa (em C).
 
-1. Implementar operações básicas para árvores binárias (em C).
+Observação: Considerar que valores são inteiros e que não pode haver valores repetidos na BTS.
+Definir o tipo abstrato de dados "IntegerBTS".
 
-- void add (IntegerTree *, int);
-- remove (IntegerTree *, int);
-- IntegerTree * search (IntegerTree *, int);
-- void preorder (IntegerTree *);
+```
+typedef struct TreeNode {
+  int data;
+  TreeNode * left;
+  TreeNode * right;
+} IntegerBTS;
+```
 
-2. Implementar versão recursiva para árvores binárias (em C).
+- void add (IntegerBTS *, int); // adiciona valor inteiro 
+- remove (IntegerBTS *, int); // remove nó que contém valor 
+- IntegerTree * search (IntegerBTS*, int);
+- void preorder (IntegerBTS *);
+- void inorder (IntegerBTS *);
+- void posorder (IntegerBTS *);
 
-- void add (IntegerTree *, int);
-- remove (IntegerTree *, int);
-- IntegerTree * search (IntegerTree*, int);
-- void preorder (IntegerTree *);
-- void inorder (IntegerTree *);
-- void posorder (IntegerTree *);
+2. Implementar funções para manipular árvores binárias de pesquisa. Usar versão recursiva (em C).
 
-3. Implementar funções de busca para árvores binárias. Usar versão recursiva (em C).
+- altura da árvore.
+- mínimo e máximo valores presentes na árvore.
+- sucessor (se um nó possui subárvore à direita, o seu sucessor é nó que contém o valor mínimo dessa subárvore).
+- predecessor (se um nó possui subárvore à esquerda, o seu predecessor é nó que contém o valor máximo dessa subárvore).
 
-- altura da árvore
-- mínimo e máximo valores presentes na árvore
-- sucessor (se um nó possui subárvore à direita, o seu sucessor é o mínimo dessa subárvore)
-- predecessor (se um nó possui subárvore à esquerda, o seu predecessor é o máximo dessa subárvore).
-
-4. Usar as funções implementadas em uma pequena aplicação à sua escolha (em C).
+3. Usar as funções implementadas em uma pequena aplicação à sua escolha (em C).
