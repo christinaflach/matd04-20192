@@ -1,5 +1,5 @@
 Textos extraídos e/ou adaptados a partir das referências bibliográficas (1) e (2).
-Leitura recomendada: [Material do Prof. João Brunet - UFCG](https://joaoarthurbm.github.io/eda/posts/introducao-a-analise/)
+Leitura recomendada: Introdução à análise de algoritmos [Material do Prof. João Brunet - UFCG](https://joaoarthurbm.github.io/eda/posts/introducao-a-analise/)
 
 # Análise de algoritmos
 
@@ -71,8 +71,12 @@ Qual o _pior caso_? Qual o _caso médio_?
               if A[i] < Min then Min := A[i];
             end;
         end;
+        
+Em geral, o interesse está em comparar algoritmos, ao invés de determinar o seu tempo exato de execução e, em particular, em funções que descrevem o comportamento dos algoritmos para grandes tamanhos de entrada: _análise assintótica_.
     
 ## Comportamento assintótico de funções
+
+Leitura recomendada: Análise assintótica [Material do Prof. João Brunet - UFCG](https://joaoarthurbm.github.io/eda/posts/analise-assintotica/)
 
 O parâmetro _N_ fornece uma medida da dificuldade para se resolver um problema, no sentido de que o tempo necessário para executar um programa que resolve o problema cresce quando _N_ cresce. Em geral, os algoritmos estudados aqui têm tempo de execução proporcional a uma das funções seguintes:
 
