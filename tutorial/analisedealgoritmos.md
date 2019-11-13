@@ -72,7 +72,7 @@ Qual o _pior caso_? Qual o _caso médio_?
             end;
         end;
         
-Em geral, o interesse está em comparar algoritmos, ao invés de determinar o seu tempo exato de execução e, em particular, em funções que descrevem o comportamento dos algoritmos para grandes tamanhos de entrada: _análise assintótica_.
+Em geral, o interesse está em comparar algoritmos, ao invés de determinar o seu tempo exato de execução e, em particular, em determinar funções que descrevem o comportamento dos algoritmos para grandes tamanhos de entrada: _análise assintótica_.
     
 ## Comportamento assintótico de funções
 
@@ -101,16 +101,13 @@ Para duas funções f(n) e g(n), dizemos que f(n) é _Θ(g(n))_ se
 
 ## A notação _O_ (_big-Oh notation_) 
 
-Classes de comportamento assintótico.
-
-Enquanto a notação _Θ_define os limites inferior e superior de uma função, a notação _O_ (_big-Oh notation_) 
+Enquanto a notação _Θ_ define os limites inferior e superior de uma função, a notação _O_ (_big-Oh notation_) 
 define apenas o limite superior para uma determinada função.
 
 Para duas funções f(n) e g(n), dizemos que f(n) é _O(g(n))_ se
 
-0 <=  f(n) <= c∗g(n) ,∀n >= n0
+0 <= f(n) <= c∗g(n) ,∀n >= n0
 
-Se _f_ é uma função de complexidade para um algoritmo F, então _O(f)_ é considerada a complexidade assintótica ou o comportamento assíntótico do algoritmo F. 
 Afirmar que f(n) ∈ _O(g(n))_ significa dizer que o crescimento de f(n) é menor ou igual ao crescimento de g(n).
 
 _O(1)_, 
