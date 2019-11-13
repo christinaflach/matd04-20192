@@ -92,11 +92,26 @@ O parâmetro _N_ fornece uma medida da dificuldade para se resolver um problema,
 
 + 2<sup>N</sup>.  O tempo de execução de um programa é _exponencial_.
 
+## A notação Θ (Theta)
 
-## Classes de comportamento assintótico
+Para duas funções f(n) e g(n), dizemos que f(n) é _Θ(g(n))_ se
 
-A notação _O_ (_big-Oh notation_) encapsula a noção de _ser proporcional a_. 
+0 <= c1∗g(n) <= f(n) <= c2∗g(n) ,∀n >= n0
+
+
+## A notação _O_ (_big-Oh notation_) 
+
+Classes de comportamento assintótico.
+
+Enquanto a notação _Θ_define os limites inferior e superior de uma função, a notação _O_ (_big-Oh notation_) 
+define apenas o limite superior para uma determinada função.
+
+Para duas funções f(n) e g(n), dizemos que f(n) é _O(g(n))_ se
+
+0 <=  f(n) <= c∗g(n) ,∀n >= n0
+
 Se _f_ é uma função de complexidade para um algoritmo F, então _O(f)_ é considerada a complexidade assintótica ou o comportamento assíntótico do algoritmo F. 
+Afirmar que f(n) ∈ _O(g(n))_ significa dizer que o crescimento de f(n) é menor ou igual ao crescimento de g(n).
 
 _O(1)_, 
 _O(logn)_, 
