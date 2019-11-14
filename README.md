@@ -60,8 +60,8 @@ Ordenação externa.
 # Avaliações
 
 + Duas provas (peso 6) 
-   - Prova 1: https://repl.it/classroom/invite/hv6l42O
-   - [Questões](exercicios/p1-questoes.md)
+   - Prova 1: [Questões](exercicios/p1-questoes.md)
+   - Prova 2
 + Trabalho (peso 2)
 + Exercícios (peso 2)
 
@@ -74,6 +74,8 @@ Ordenação externa.
 ---
 
 # Plano de aulas
+
+- 29/11: Prova 2
 
 - 13/11: Prova 1
 
