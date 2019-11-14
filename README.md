@@ -61,6 +61,7 @@ Ordenação externa.
 
 + Duas provas (peso 6) 
    - Prova 1: https://repl.it/classroom/invite/hv6l42O
+   - [Questões](exercicios/p1-questoes.md)
 + Trabalho (peso 2)
 + Exercícios (peso 2)
 
