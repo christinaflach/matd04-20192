@@ -60,7 +60,7 @@ Ordenação externa.
 # Avaliações
 
 + Duas provas (peso 6) 
-   - Prova 1: https://repl.it/classroom/invite/hvOws9Z
+   - Prova 1: https://repl.it/classroom/invite/hv5i5sL
 + Trabalho (peso 2)
 + Exercícios (peso 2)
 
