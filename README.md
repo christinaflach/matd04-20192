@@ -75,11 +75,17 @@ Ordenação externa.
 
 # Plano de aulas
 
+- 04 e 06/12: Funções de hashing e métodos de resolução de colisão; Ordenação externa.
+
 - 29/11: Prova 2
 
-- 13/11: Prova 1
+- 27/11: Árvores-B e suas variações
 
-- 06/11 e 8/11: [Árvores binárias](tutorial/arvores.md). Aula Prática: [Lista 04](exercicios/lista04.md)
+- 20 e 22/11: [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/)  e Outros tipos de árvores 
+
+- 13/11: Prova 1 e  15/11: Feriado
+
+- 06/11 e 8/11: [Árvores binárias de pesquisa](tutorial/arvores.md). Aula Prática: [Lista 04](exercicios/lista04.md)
 
 - 30/10 e 01/11: Congresso UFBA / Aula Prática (pilhas e filas).
 
