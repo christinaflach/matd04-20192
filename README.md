@@ -35,13 +35,14 @@ Ordenação externa.
    - [Pilhas](tutorial/pilhas.md)
    - [Filas](tutorial/filas.md)
    - [Árvores](tutorial/arvores.md)
+   - [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/)
 
 4. Pesquisa em memória primária
    - [Pesquisa sequencial](tutorial/buscasequencial.md)
    - Pesquisa binária
    - Pesquisa em árvore binária.
 
-## Parte 2 
+## Parte 2 (Estrutura de Arquivos)
 
 5. Arquivos com organização sequencial 
    - Pesquisa sequencial
@@ -79,9 +80,9 @@ Ordenação externa.
 
 - 29/11: Prova 2
 
-- 27/11: Árvores-B e suas variações
+- 27/11: Funções de hashing e métodos de resolução de colisão; Ordenação externa.
 
-- 20 e 22/11: [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/)  e Outros tipos de árvores 
+- 20 e 22/11: [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/) / [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) / Outros tipos de árvore.
 
 - 13/11: Prova 1 e  15/11: Feriado
 
@@ -122,6 +123,8 @@ Ordenação externa.
 + [Lista 02](exercicios/lista02.md) **Entrega até 13/11**.
 + [Lista 03](exercicios/lista03.md) **Entrega até 13/11**.
 + [Lista 04](exercicios/lista04.md) **Entrega até 20/11**.
++ [Lista 05](exercicios/lista05.md) **Entrega até 27/11**.
++ [Lista 06](exercicios/lista06.md) **Entrega até 04/12**.
 
 # Trabalho 
 
