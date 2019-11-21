@@ -82,7 +82,10 @@ Ordenação externa.
 
 - 27/11: Funções de hashing e métodos de resolução de colisão; Ordenação externa.
 
-- 20 e 22/11: [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/) / [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) / Outros tipos de árvore.
+- 20 e 22/11
+   + [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/)
+   + [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) - [Lista 05](exercicios/lista05.md)  **Entrega até 27/11**
+   + Outros tipos de árvore.
 
 - 13/11: Prova 1 e  15/11: Feriado
 
