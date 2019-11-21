@@ -7,9 +7,9 @@ antes de fazer as questões.
 ### 1. Definir o tipo "Heap" (usar struct e typedef) e implementar em C as seguintes funções de manipulação de _heaps_:
 
 
-Heap criaHeap(int n); // cria heap vazia, com capacidade para n elementos.
+Heap createHeap(int n); // cria heap vazia, com capacidade para n elementos.
 
-Heap criaHeap(int v[]); // cria heap a partir de um vetor de elementos e chama a função _buildHeap_;
+Heap createHeap(int v[]); // cria heap a partir de um vetor de elementos e chama a função _buildHeap_;
 
 void add(Heap h, int value); // adiciona elemento value a heap h.
 
