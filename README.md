@@ -84,7 +84,8 @@ Ordenação externa.
 
 - 20 e 22/11
    + [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/)
-   + [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) - [Lista 05](exercicios/lista05.md)  **Entrega até 27/11**
+   + [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) 
+    - [Lista 05](exercicios/lista05.md)  **Entrega até 27/11**
    + Outros tipos de árvore.
 
 - 13/11: Prova 1 e  15/11: Feriado
