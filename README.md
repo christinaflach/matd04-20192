@@ -85,11 +85,11 @@ Ordenação externa.
 - 20 e 22/11: [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) e outros tipos de árvore.
    + [Lista 05](exercicios/lista05.md)  **Entrega até 27/11**
 
-
 - 13/11: Prova 1 e 15/11: Feriado
    + Leitura: [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/)
 
-- 06/11 e 8/11: [Árvores binárias de pesquisa](tutorial/arvores.md). Aula Prática: [Lista 04](exercicios/lista04.md)
+- 06/11 e 8/11: [Árvores binárias de pesquisa](tutorial/arvores.md)
+   + [Lista 04](exercicios/lista04.md)  **Entrega até 20/11**.
 
 - 30/10 e 01/11: Congresso UFBA / Aula Prática (pilhas e filas).
 
