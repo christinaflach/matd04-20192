@@ -50,13 +50,13 @@ Ordenação externa.
    - Pesquisa binária. 
 
 6. Arquivos com organização direta 
-   - Funções de hashing
+   - [Funções de hashing](tutorial/hashing.md)
    - Métodos de resolução de colisão.
  
 7. Arquivos com organização em árvore 
-   - Árvores-B e suas variações. 
+   - [Árvores-B e suas variações](tutorial/btrees.md)
 
-8. Ordenação externa.
+8. [Ordenação externa](tutorial/ordenacaoexterna.md)
 
 # Avaliações
 
