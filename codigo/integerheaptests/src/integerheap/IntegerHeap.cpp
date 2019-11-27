@@ -38,28 +38,9 @@ void buildHeap(Heap h) {
 }
 
 void add(Heap *h, int value) {
-   int i, p, aux;
-
-   if (h->tail >= (MAX-1)) {
-      printf("Heap cheia\n");
-      exit(1);
-   }
-
-   h->tail = h->tail + 1;
-   h->heap[h->tail] = value;
-   i = h->tail;
-
-   while (i > 0 && h->heap[parent(i)] < h->heap[i]) {
-      aux = h->heap[i];
-      p = parent(i);
-      h->heap[i] = h->heap[p];
-      h->heap[p] = aux;
-      i = p;
-   }
 }
 
 int removeElement(Heap h) {
-   return 0;
 }
 
 int left(int index) {
@@ -75,20 +56,6 @@ int parent(int index) {
 }
 
 void heapify(Heap h, int index) {
-   int index_max;
-
-   if (isLeaf(index, h.tail) || !isValidIndex(index, h.tail)) 
-      return;
-        
-   // compares index, left and right to find max
-   index_max = max_index(h, index, left(index), right(index));
-        
-   // if current index is not greater than its children, 
-   // swap and keep heapifying.
-   if (index_max != index) {
-      swap(h, index, index_max);
-      heapify(h, index_max);
-   }
 }
 
 
