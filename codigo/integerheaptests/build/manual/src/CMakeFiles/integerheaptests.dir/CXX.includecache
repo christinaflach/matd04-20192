@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/IntegerHeap.h
+stdio.h
+-
+
+/Users/christina/Ensino-UFBA/matd04/matd04-p/codigo/integerheaptests/src/main.cpp
+stdio.h
+-
+IntegerHeap.h
+/Users/christina/Ensino-UFBA/matd04/matd04-p/codigo/integerheaptests/src/IntegerHeap.h
+
