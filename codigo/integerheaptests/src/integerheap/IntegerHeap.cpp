@@ -38,15 +38,15 @@ void buildHeap(Heap h) {
 }
 
 void heapify(Heap h, int index) {
-
+// Implement here
 }
 
 void add(Heap *hptr, int value) {
-
+// Implement here
 }
 
 int removeElement(Heap *hptr) {
-
+// Implement here
 }
 
 int left(int index) {
