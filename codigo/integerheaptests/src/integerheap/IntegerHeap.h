@@ -10,9 +10,9 @@ typedef struct {
    int *heap;
 } Heap;
 
-#define MAX 15 // Usei MAX pequeno aqui para facilitar testes.
+#define MAX 11 // Usei MAX pequeno aqui para facilitar testes.
 
-void add(Heap *h, int value); 
+void add(Heap *hptr, int value); 
 void buildHeap(Heap h); 
 Heap createEmptyHeap(int n); 
 Heap createHeap(int v[], int n); 
@@ -24,8 +24,7 @@ int left(int index);
 int max_index(Heap h, int index, int left, int right); 
 int parent(int index);
 void printHeap(Heap);
-int removeElement(Heap h);
+int removeElement(Heap *hptr);
 int right(int index);
 void swap(Heap h, int i, int j);
-
 

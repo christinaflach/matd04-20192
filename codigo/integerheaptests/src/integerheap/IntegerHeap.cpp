@@ -37,10 +37,16 @@ void buildHeap(Heap h) {
       heapify(h,i);
 }
 
-void add(Heap *h, int value) {
+void heapify(Heap h, int index) {
+
 }
 
-int removeElement(Heap h) {
+void add(Heap *hptr, int value) {
+
+}
+
+int removeElement(Heap *hptr) {
+
 }
 
 int left(int index) {
@@ -54,10 +60,6 @@ int right(int index) {
 int parent(int index) {
    return (index-1)/2;
 }
-
-void heapify(Heap h, int index) {
-}
-
 
 void printHeap(Heap h) {
    int *v = h.heap;
