@@ -5,7 +5,7 @@
 Observação: Considerar que valores são inteiros e que não pode haver valores repetidos na BTS.
 Definir o tipo abstrato de dados "IntegerBTS".
 
-```
+```C
 typedef struct TreeNode {
   int data;
   TreeNode * left;
