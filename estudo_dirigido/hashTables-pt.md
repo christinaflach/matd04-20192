@@ -3,63 +3,53 @@
  
 - Curso HASHING: THE BASICS - Tabelas Hash: Operações e Aplicações
  
-## Transcrição do vídeo
+## Transcrição do vídeo (tradução para português)
 
-Neste vídeo, começaremos nossa discussão sobre tabelas de hash; vamos nos concentrar primeiro na
-operações de suporte e em algumas das aplicações canônicas. Então, tabelas de hash são
-incrivelmente útil. Se você quer ser um programador sério ou um cientista da computação
-você realmente não tem escolha a não ser aprender sobre tabelas de hash. Tenho certeza que muitos de vocês
-de fato os utilizou em seus próprios programas no passado. Agora, por um lado, o que é
-engraçado é que eles não fazem tantas coisas em termos de número de
-operações, mas o que eles fazem, eles fazem muito, muito bem.
+Neste vídeo, começaremos nossa discussão sobre _tabelas de hash_. Vamos nos concentrar primeiro nas operações de suporte e em algumas das aplicações canônicas. Então, tabelas de hash são incrivelmente úteis. Se você quer ser um programador sério ou um cientista da computação, você realmente não tem escolha a não ser aprender sobre tabelas de hash. 
+Tenho certeza que muitos de vocês de fato as utilizaram em seus próprios programas no passado. Agora, por um lado, o que é
+engraçado é que elas não fazem tantas coisas em termos de número de operações, mas o que elas fazem, fazem muito, muito bem.
 
 ### Então, o que é uma tabela de hash?
 
-Bem, conceitualmente, ignorando todos os aspectos da implementação, você pode
-quero pensar em uma tabela de hash como uma matriz. Então, uma coisa que as matrizes fazem super bem é
-apoiar acesso imediato imediato. Então, se você está se perguntando qual é a posição
-número dezessete de alguma matriz, lança, com algumas instruções da máquina, você pode
-descobrir, quer mudar o conteúdo da posição número 23 em alguma matriz? Feito, em
-tempo constante. Então, vamos pensar em um aplicativo no qual você deseja se lembrar
-os números de telefone dos seus amigos. 
-Então, se você tiver sorte, seus amigos e pais foram todos nus, 
-pessoas extraordinariamente sem imaginação e 
-todos os nomes de seus amigos são números inteiros, digamos entre um e 10.000. 
-Portanto, se este for o caso, você pode simplesmente manter uma matriz
-do link 10.000. 
-E para armazenar o número de telefone de, digamos, seu melhor amigo, 173, você
-pode apenas usar a posição 173 desta matriz de tamanho modesto. 
-Portanto, esta solução baseada em array
-funcionaria muito bem, mesmo que seus amigos mudem com o tempo, você ganha um pouco aqui
-perder um pouco lá, desde que todos os nomes de seus amigos sejam inteiros
-entre 1-10.000. Agora, é claro, seus amigos têm nomes mais interessantes:
-Alice, Bob, Carol, tanto faz. E sobrenomes também. Então, em princípio, você poderia
-ter uma matriz com uma posição na matriz para cada nome concebível que você possa
-encontro, com pelo menos 30 letras. Mas é claro que essa matriz seria muito
-grande. Seria algo como 26 elevado ao trigésimo poder e você nunca poderia
-Implementá-lo. Então, o que você realmente gostaria é de uma variedade de tamanho razoável,
-digamos, você sabe estimar o número de amigos que já teria, então diga
-os milhares ou algo assim, onde suas posições são indexadas, não pelos números,
-não inteiros. [inaudível] Entre um e 10.000, mas sim pelos seus amigos
-E o que você gostaria de fazer é ter acesso aleatório a essa matriz com base em
-o nome do seu amigo. Então, basta procurar a citação entre aspas da posição de Alice
-matriz e. Boom, haveria o número de telefone de Alice em tempo constante. E isto,
-em um nível conceitual, é basicamente o que uma tabela de hash pode fazer por você. Então tem um
-muita magia acontecendo sob o capô de uma tabela de hash e isso é algo que vamos
-discutir até certo ponto em outros vídeos. Então você precisa ter esse mapeamento entre os
-teclas importantes para você, como o nome de seus amigos e posições numéricas
-de alguma matriz. Isso é feito pelo que é chamado de função hash, mas corretamente
-implementado, esse é o tipo de funcionalidade que as tabelas de hash oferecem,
-Assim como uma matriz com suas posições indexadas pelas chaves que você está armazenando.
+Bem, conceitualmente, ignorando todos os aspectos da implementação, você pode pensar em uma tabela de hash como um vetor. 
+Então, uma coisa que os vetores fazem bem é apoiar o acesso imediato/direto. Então, se você está se perguntando qual é a posição número dezessete de um dado vetor, com algumas instruções da máquina, você pode descobrir; quer mudar o conteúdo da posição número 23 desse vetor? Feito, em tempo constante. 
 
-Assim, você pode pensar no propósito da tabela de hash como manter uma possível
-conjunto de coisas em evolução. Onde é claro o conjunto de coisas que você está mantendo, você
-saber, variará de acordo com a aplicação. Pode ser qualquer número de coisas. Então se você é
-executando um site de comércio eletrônico, talvez você esteja acompanhando as transações. Vocês
-sabe, novamente, talvez você esteja acompanhando pessoas, como, por exemplo, seus amigos e
-vários dados sobre eles. Talvez você esteja acompanhando os endereços I-P, por
-exemplo, se você quer saber quem foi, houve visitantes únicos em seus sites.
-E assim por diante.
+Então, vamos pensar em um aplicativo no qual você deseja se lembrar os números de telefone dos seus amigos. 
+Suponha que os pais de seus amigos são pessoas extraordinariamente sem imaginação e 
+todos os nomes de seus amigos são números inteiros, digamos entre um e 10.000. 
+Portanto, se este for o caso, você pode simplesmente manter um vetor com 10.000 entradas. 
+E para armazenar o número de telefone de, digamos, seu melhor amigo, o "173", você
+pode apenas usar a posição 173 de tal vetor de tamanho modesto. 
+Portanto, esta solução baseada em vetor funcionaria muito bem, mesmo que seus amigos mudem com o tempo, você ganha um pouco aqui, perde um pouco lá -- mas desde que todos os nomes de seus amigos sejam inteiros
+entre 1 e 10.000. 
+Certamente, seus amigos têm nomes mais interessantes: Alice, Bob, Carol, etc. E sobrenomes também. 
+Então, em princípio, você poderia ter um vetor com uma posição para cada nome concebível que você possa
+encontrar, com pelo menos 30 letras. Mas é claro que esse vetor seria muito grande: 
+seria algo como 26 elevado a 30 e você nunca poderia implementá-lo. 
+Então, o que você realmente gostaria é de uma variedade de tamanho razoável,
+digamos, você sabe estimar o número de amigos que teria, 
+milhares ou algo assim, onde suas posições são indexadas, não pelos números,
+não por inteiros. [inaudível] Entre 1 e 10.000, mas sim pelos seus amigos.
+E o que você gostaria de fazer é ter acesso aleatório a esse vetor com base no nome do seu amigo. 
+Então, basta procurar a citação entre aspas da posição de Alice no vetor e 
+haveria o número de telefone de Alice em tempo constante. 
+E isto, em um _nível conceitual_, é basicamente o que uma tabela de hash pode fazer por você. 
+Questões de implementação serao discutidas em outros vídeos. 
+
+Você precisa ter esse mapeamento entre as chaves importantes para você, por exemplo,
+o nome de seus amigos e posições numéricas de algum vetor. 
+Isso é feito pelo que é chamado de _função de hashing_ que implementa
+o tipo de funcionalidade que as tabelas de hash oferecem 
+(assim como um vetor com suas posições indexadas pelas chaves que você está armazenando).
+
+Assim, você pode pensar que o propósito da tabela de hash é manter um
+conjunto de coisas em evolução. 
+O conjunto de coisas que você está mantendo variará de acordo com a aplicação. 
+Pode ser qualquer número de coisas. Então se você está executando um site de comércio eletrônico, 
+talvez você esteja acompanhando as transações. 
+Você sabe, novamente, talvez você esteja acompanhando pessoas, como, por exemplo, seus amigos e
+vários dados sobre eles. Talvez você esteja acompanhando os endereços IP, por
+exemplo, se você quer saber quem foi, e se houve visitantes únicos em seus sites.
 
 Então, um pouco mais formalmente, você sabe, as operações básicas, você precisa
 para poder inserir coisas em uma tabela de hash. Em muitos, mas nem todos os aplicativos,
