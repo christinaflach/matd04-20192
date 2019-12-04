@@ -7,21 +7,21 @@ antes de fazer as questões.
 ### 1. Definir o tipo "Heap" (usar struct e typedef) e implementar em C as seguintes funções de manipulação de _heaps_:
 
 
-Heap createHeap(int n); // cria heap vazia, com capacidade para n elementos.
+Heap createEmptyHeap(int n); // cria heap vazia, com capacidade para n elementos.
 
-Heap createHeap(int v[]); // cria heap a partir de um vetor de elementos e chama a função _buildHeap_;
+Heap createHeap(int v[], int n); // cria heap a partir de um vetor de elementos e chama a função _buildHeap_;
 
-void add(Heap h, int value); // adiciona elemento value a heap h.
+void add(Heap *h, int value); // adiciona elemento value a heap h.
 
-int remove(Heap h); // remove elemento da heap (sempre o maior) e devolve o elemento removido.
+int removeElement(Heap *h); // remove elemento da heap (sempre o maior) e devolve o elemento removido.
 
 int isEmpty(Heap h);
 
-int left(Heap h, int index);
+int left(int index);
 
-int right(Heap h, int index);
+int right(int index);
 
-int parent(Heap h, int index);
+int parent(int index);
 
 void heapify(Heap h); // ver material indicado.
 
