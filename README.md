@@ -34,7 +34,7 @@ Ordenação externa.
    - [Listas lineares](tutorial/listas.md)
    - [Pilhas](tutorial/pilhas.md)
    - [Filas](tutorial/filas.md)
-   - [Árvores](tutorial/arvores.md), Pesquisa em árvore binária
+   - [Árvores](tutorial/arvores.md), [Árvores binárias de pesquisa](https://joaoarthurbm.github.io/eda/posts/bst/)
    - [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/)
 
 4. Pesquisa em memória primária
@@ -59,9 +59,9 @@ Ordenação externa.
 # Avaliações
 
 + Duas provas (peso 6) 
-   - Prova 1: [Questões](exercicios/p1-questoes.md)
+   - Prova 1
    - Prova 2
-+ Trabalho (peso 2)
++ Trabalho (peso 2) - cancelado - transferir peso para Provas (50%) e Exercícios (50%)
 + Exercícios (peso 2)
 
 # Referências Bibliográficas
@@ -69,6 +69,7 @@ Ordenação externa.
 - (1) Ziviani, N. Projeto de Algoritmos com implementações em Pascal e C. Ed. Thomson, 2 ed. rev e ampl. 2005.
 - (2) Sedgewick, R. Algorithms. Ed. Addison-Wesley, 2 ed. 1988. [Ver outras edições](https://algs4.cs.princeton.edu/home/).
 - (3) D.E. Knuth, The Art of Computer Programming, vol. 1 (Fundamental Algorithms) e vol. 3 (Sorting and Searching), Addison-Wesley, 1973.
+
 
 ---
 
@@ -129,10 +130,9 @@ Ordenação externa.
 
 # Trabalho 
 
-Apresentação de seminários e exercícios sobre:
-
-- Funções de hashing e métodos de resolução de colisão
-- Árvores-B e suas variações
+O trabalho foi substituído por Estudo Dirigido sobre:
+- Funções de hashing, métodos de resolução de colisão, _hash tables_.
+- Árvores-B
 - Ordenação externa.
 
 --- 
