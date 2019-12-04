@@ -34,13 +34,11 @@ Ordenação externa.
    - [Listas lineares](tutorial/listas.md)
    - [Pilhas](tutorial/pilhas.md)
    - [Filas](tutorial/filas.md)
-   - [Árvores](tutorial/arvores.md)
+   - [Árvores](tutorial/arvores.md), Pesquisa em árvore binária
    - [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/)
 
 4. Pesquisa em memória primária
-   - [Pesquisa sequencial](tutorial/buscasequencial.md)
-   - Pesquisa binária
-   - Pesquisa em árvore binária.
+   - [Pesquisa sequencial](tutorial/buscasequencial.md), pesquisa binária, pesquisa em árvore binária.
 
 ## Parte 2 (Estrutura de Arquivos)
 
@@ -50,13 +48,13 @@ Ordenação externa.
    - Pesquisa binária. 
 
 6. Arquivos com organização direta 
-   - [Funções de hashing](tutorial/hashing.md)
+   - [Funções de hashing, hash tables](estudo_dirigido/hashing.md)
    - Métodos de resolução de colisão.
  
 7. Arquivos com organização em árvore 
-   - [Árvores-B e suas variações](tutorial/btrees.md)
+   - [Árvores-B e suas variações](estudo_dirigido/btrees.md)
 
-8. [Ordenação externa](tutorial/ordenacaoexterna.md)
+8. [Ordenação externa](estudo_dirigido/ordenacaoexterna.md)
 
 # Avaliações
 
@@ -76,11 +74,11 @@ Ordenação externa.
 
 # Plano de aulas
 
-- 04 e 06/12: Funções de hashing e métodos de resolução de colisão; Ordenação externa.
+- 04 e 06/12: Apresentação de guias para estudo dirigido.
 
 - 29/11: Prova 2
 
-- 27/11: Funções de hashing e métodos de resolução de colisão; Ordenação externa.
+- 27/11: Heaps
 
 - 20 e 22/11: [Heaps](https://joaoarthurbm.github.io/eda/posts/heap/) e outros tipos de árvore.
    + [Lista 05](exercicios/lista05.md)  **Entrega até 27/11**
@@ -88,7 +86,7 @@ Ordenação externa.
 - 13/11: Prova 1 e 15/11: Feriado
    + Leitura: [Análise de algoritmos recursivos](https://joaoarthurbm.github.io/eda/posts/analise-algoritmos-recursivos/)
 
-- 06/11 e 8/11: [Árvores binárias de pesquisa](tutorial/arvores.md)
+- 06/11 e 8/11: [Árvores](tutorial/arvores.md), [Árvores binárias de pesquisa](https://joaoarthurbm.github.io/eda/posts/bst/)
    + [Lista 04](exercicios/lista04.md)  **Entrega até 20/11**.
 
 - 30/10 e 01/11: Congresso UFBA / Aula Prática (pilhas e filas).
